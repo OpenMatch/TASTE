@@ -14,7 +14,6 @@ class Options():
         self.parser.add_argument('--best_model_path', type=str, 
                                  help='load best model.')
         self.parser.add_argument('--all_models_path', type=str,
-                                 default='/Users/meisen/Desktop/项目/op-fid-v2/test',
                                  help='load all saved model.')
         self.parser.add_argument('--data_dir', nargs='?', default='Data/',
                                  help='Input data path.')

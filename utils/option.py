@@ -11,7 +11,7 @@ class Options():
     def initialize_parser(self):
 
         self.parser.add_argument('--checkpoint_dir', type=str, default='runlog/', help='logs are saved here')
-        self.parser.add_argument('--best_model_path', type=str, default='/Users/meisen/Desktop/项目/op-fid-v2/test/best_dev',
+        self.parser.add_argument('--best_model_path', type=str, 
                                  help='load best model.')
         self.parser.add_argument('--all_models_path', type=str,
                                  default='/Users/meisen/Desktop/项目/op-fid-v2/test',

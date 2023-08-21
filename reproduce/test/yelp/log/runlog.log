@@ -1,0 +1,5 @@
+[08/21/2023 17:30:01] {inference.py:81} INFO - item len: 20068
+[08/21/2023 17:30:01] {inference.py:83} INFO - test len: 30499
+[08/21/2023 17:30:01] {inference.py:16} INFO - ***** Running testing *****
+[08/21/2023 17:34:08] {inference.py:45} INFO - Test: Recall@10：0.0738, Recall@20:0.1156, NDCG@10: 0.0397, NDCG@20:0.0502
+[08/21/2023 17:34:08] {inference.py:51} INFO - ***** Finish test *****

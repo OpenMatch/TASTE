@@ -96,7 +96,7 @@ class ItemDataset(Dataset):
             "item_masks": item_masks,
         }
 
-# TODO: 测试一下这两段代码是否可以等价
+
 def list_split(array,n):
     split_list = []
     s1 = array[:n]
@@ -106,17 +106,7 @@ def list_split(array,n):
         split_list.append(s2)
     return split_list
 
-def list_split_plus(array,split_num,seq_size,num_passage):
-    split_list = []
-    s1 = array[:split_num]
-    split_list.append(s1)
-    s_remain = array[split_num:]
-    if len(s_remain) != 0:
-        n = seq_size - 1
-        s_list = [s_remain[i:i+n] for i in range(0,len(s_remain),n)]
-        split_list.extend(s_list)
-    split_list = split_list[:num_passage]
-    return split_list
+
 
 
 def encode_batch(batch_text, tokenizer, max_length):

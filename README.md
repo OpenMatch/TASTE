@@ -23,6 +23,8 @@ pandas
 tensorboard
 ```
 
+We provide the version file reproduce/environment.yml of all our used packages, if you have any problems configuring the environment, please refer to this document.
+
 **2. Install openmatch. To download OpenMatch as a library and obtain openmatch-thunlp-0.0.1.**
 
 

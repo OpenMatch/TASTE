@@ -1,0 +1,48 @@
+[08/20/2023 22:01:02] {evaluate.py:77} INFO - ***** Running evaluation *****
+[08/20/2023 22:01:02] {evaluate.py:90} INFO - all checkpoint amounts : 33
+[08/20/2023 22:01:02] {evaluate.py:107} INFO - item len: 18357
+[08/20/2023 22:01:02] {evaluate.py:109} INFO - dev len: 35598
+[08/20/2023 22:05:44] {evaluate.py:49} INFO - current:step:10000 Recall@10：0.0038, Recall@20:0.0083, NDCG@10: 0.0018, NDCG@20:0.0030
+[08/20/2023 22:05:53] {evaluate.py:148} INFO - Saved Best:step:10000,Recall@10：0.0038, Recall@20:0.0083, NDCG@10: 0.0018, NDCG@20:0.0030
+[08/20/2023 22:10:44] {evaluate.py:49} INFO - current:step:20000 Recall@10：0.0251, Recall@20:0.0405, NDCG@10: 0.0125, NDCG@20:0.0164
+[08/20/2023 22:11:08] {evaluate.py:148} INFO - Saved Best:step:20000,Recall@10：0.0251, Recall@20:0.0405, NDCG@10: 0.0125, NDCG@20:0.0164
+[08/20/2023 22:15:47] {evaluate.py:49} INFO - current:step:30000 Recall@10：0.0320, Recall@20:0.0524, NDCG@10: 0.0161, NDCG@20:0.0212
+[08/20/2023 22:16:12] {evaluate.py:148} INFO - Saved Best:step:30000,Recall@10：0.0320, Recall@20:0.0524, NDCG@10: 0.0161, NDCG@20:0.0212
+[08/20/2023 22:20:51] {evaluate.py:49} INFO - current:step:40000 Recall@10：0.0434, Recall@20:0.0691, NDCG@10: 0.0216, NDCG@20:0.0280
+[08/20/2023 22:21:17] {evaluate.py:148} INFO - Saved Best:step:40000,Recall@10：0.0434, Recall@20:0.0691, NDCG@10: 0.0216, NDCG@20:0.0280
+[08/20/2023 22:25:56] {evaluate.py:49} INFO - current:step:50000 Recall@10：0.0439, Recall@20:0.0705, NDCG@10: 0.0219, NDCG@20:0.0285
+[08/20/2023 22:26:19] {evaluate.py:148} INFO - Saved Best:step:50000,Recall@10：0.0439, Recall@20:0.0705, NDCG@10: 0.0219, NDCG@20:0.0285
+[08/20/2023 22:30:58] {evaluate.py:49} INFO - current:step:60000 Recall@10：0.0556, Recall@20:0.0860, NDCG@10: 0.0282, NDCG@20:0.0358
+[08/20/2023 22:31:19] {evaluate.py:148} INFO - Saved Best:step:60000,Recall@10：0.0556, Recall@20:0.0860, NDCG@10: 0.0282, NDCG@20:0.0358
+[08/20/2023 22:35:58] {evaluate.py:49} INFO - current:step:70000 Recall@10：0.0598, Recall@20:0.0919, NDCG@10: 0.0306, NDCG@20:0.0387
+[08/20/2023 22:36:22] {evaluate.py:148} INFO - Saved Best:step:70000,Recall@10：0.0598, Recall@20:0.0919, NDCG@10: 0.0306, NDCG@20:0.0387
+[08/20/2023 22:41:01] {evaluate.py:49} INFO - current:step:80000 Recall@10：0.0643, Recall@20:0.0969, NDCG@10: 0.0329, NDCG@20:0.0412
+[08/20/2023 22:41:21] {evaluate.py:148} INFO - Saved Best:step:80000,Recall@10：0.0643, Recall@20:0.0969, NDCG@10: 0.0329, NDCG@20:0.0412
+[08/20/2023 22:46:01] {evaluate.py:49} INFO - current:step:90000 Recall@10：0.0677, Recall@20:0.1018, NDCG@10: 0.0361, NDCG@20:0.0447
+[08/20/2023 22:46:31] {evaluate.py:148} INFO - Saved Best:step:90000,Recall@10：0.0677, Recall@20:0.1018, NDCG@10: 0.0361, NDCG@20:0.0447
+[08/20/2023 22:51:10] {evaluate.py:49} INFO - current:step:100000 Recall@10：0.0675, Recall@20:0.1026, NDCG@10: 0.0342, NDCG@20:0.0431
+[08/20/2023 22:51:38] {evaluate.py:148} INFO - Saved Best:step:100000,Recall@10：0.0675, Recall@20:0.1026, NDCG@10: 0.0342, NDCG@20:0.0431
+[08/20/2023 22:56:22] {evaluate.py:49} INFO - current:step:110000 Recall@10：0.0740, Recall@20:0.1094, NDCG@10: 0.0382, NDCG@20:0.0471
+[08/20/2023 22:56:55] {evaluate.py:148} INFO - Saved Best:step:110000,Recall@10：0.0740, Recall@20:0.1094, NDCG@10: 0.0382, NDCG@20:0.0471
+[08/20/2023 23:01:34] {evaluate.py:49} INFO - current:step:120000 Recall@10：0.0670, Recall@20:0.1009, NDCG@10: 0.0336, NDCG@20:0.0421
+[08/20/2023 23:06:13] {evaluate.py:49} INFO - current:step:130000 Recall@10：0.0750, Recall@20:0.1105, NDCG@10: 0.0388, NDCG@20:0.0477
+[08/20/2023 23:06:40] {evaluate.py:148} INFO - Saved Best:step:130000,Recall@10：0.0750, Recall@20:0.1105, NDCG@10: 0.0388, NDCG@20:0.0477
+[08/20/2023 23:11:19] {evaluate.py:49} INFO - current:step:140000 Recall@10：0.0761, Recall@20:0.1135, NDCG@10: 0.0396, NDCG@20:0.0490
+[08/20/2023 23:11:44] {evaluate.py:148} INFO - Saved Best:step:140000,Recall@10：0.0761, Recall@20:0.1135, NDCG@10: 0.0396, NDCG@20:0.0490
+[08/20/2023 23:16:22] {evaluate.py:49} INFO - current:step:150000 Recall@10：0.0761, Recall@20:0.1117, NDCG@10: 0.0396, NDCG@20:0.0485
+[08/20/2023 23:21:02] {evaluate.py:49} INFO - current:step:160000 Recall@10：0.0788, Recall@20:0.1171, NDCG@10: 0.0406, NDCG@20:0.0502
+[08/20/2023 23:21:27] {evaluate.py:148} INFO - Saved Best:step:160000,Recall@10：0.0788, Recall@20:0.1171, NDCG@10: 0.0406, NDCG@20:0.0502
+[08/20/2023 23:26:05] {evaluate.py:49} INFO - current:step:170000 Recall@10：0.0734, Recall@20:0.1104, NDCG@10: 0.0377, NDCG@20:0.0470
+[08/20/2023 23:30:44] {evaluate.py:49} INFO - current:step:180000 Recall@10：0.0789, Recall@20:0.1152, NDCG@10: 0.0406, NDCG@20:0.0497
+[08/20/2023 23:35:23] {evaluate.py:49} INFO - current:step:190000 Recall@10：0.0732, Recall@20:0.1087, NDCG@10: 0.0364, NDCG@20:0.0454
+[08/20/2023 23:40:01] {evaluate.py:49} INFO - current:step:200000 Recall@10：0.0770, Recall@20:0.1140, NDCG@10: 0.0393, NDCG@20:0.0486
+[08/20/2023 23:44:39] {evaluate.py:49} INFO - current:step:210000 Recall@10：0.0796, Recall@20:0.1176, NDCG@10: 0.0410, NDCG@20:0.0506
+[08/20/2023 23:45:13] {evaluate.py:148} INFO - Saved Best:step:210000,Recall@10：0.0796, Recall@20:0.1176, NDCG@10: 0.0410, NDCG@20:0.0506
+[08/20/2023 23:49:51] {evaluate.py:49} INFO - current:step:220000 Recall@10：0.0751, Recall@20:0.1123, NDCG@10: 0.0384, NDCG@20:0.0477
+[08/20/2023 23:54:30] {evaluate.py:49} INFO - current:step:230000 Recall@10：0.0773, Recall@20:0.1147, NDCG@10: 0.0399, NDCG@20:0.0493
+[08/20/2023 23:59:08] {evaluate.py:49} INFO - current:step:240000 Recall@10：0.0732, Recall@20:0.1092, NDCG@10: 0.0364, NDCG@20:0.0455
+[08/21/2023 00:03:47] {evaluate.py:49} INFO - current:step:250000 Recall@10：0.0766, Recall@20:0.1138, NDCG@10: 0.0392, NDCG@20:0.0485
+[08/21/2023 00:08:25] {evaluate.py:49} INFO - current:step:260000 Recall@10：0.0748, Recall@20:0.1094, NDCG@10: 0.0381, NDCG@20:0.0468
+[08/21/2023 00:13:08] {evaluate.py:49} INFO - current:step:270000 Recall@10：0.0755, Recall@20:0.1119, NDCG@10: 0.0378, NDCG@20:0.0470
+[08/21/2023 00:13:08] {evaluate.py:154} INFO -  Early stop!Finished!
+[08/21/2023 00:13:08] {evaluate.py:158} INFO - ***** Finish evaluation *****

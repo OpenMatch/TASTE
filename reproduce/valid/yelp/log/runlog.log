@@ -1,0 +1,54 @@
+[08/21/2023 00:14:42] {evaluate.py:77} INFO - ***** Running evaluation *****
+[08/21/2023 00:14:42] {evaluate.py:90} INFO - all checkpoint amounts : 34
+[08/21/2023 00:14:42] {evaluate.py:107} INFO - item len: 20068
+[08/21/2023 00:14:43] {evaluate.py:109} INFO - dev len: 30499
+[08/21/2023 00:18:55] {evaluate.py:49} INFO - current:step:10000 Recall@10：0.0106, Recall@20:0.0199, NDCG@10: 0.0046, NDCG@20:0.0069
+[08/21/2023 00:19:26] {evaluate.py:148} INFO - Saved Best:step:10000,Recall@10：0.0106, Recall@20:0.0199, NDCG@10: 0.0046, NDCG@20:0.0069
+[08/21/2023 00:23:38] {evaluate.py:49} INFO - current:step:20000 Recall@10：0.0210, Recall@20:0.0370, NDCG@10: 0.0101, NDCG@20:0.0141
+[08/21/2023 00:24:10] {evaluate.py:148} INFO - Saved Best:step:20000,Recall@10：0.0210, Recall@20:0.0370, NDCG@10: 0.0101, NDCG@20:0.0141
+[08/21/2023 00:28:18] {evaluate.py:49} INFO - current:step:30000 Recall@10：0.0314, Recall@20:0.0536, NDCG@10: 0.0151, NDCG@20:0.0207
+[08/21/2023 00:28:52] {evaluate.py:148} INFO - Saved Best:step:30000,Recall@10：0.0314, Recall@20:0.0536, NDCG@10: 0.0151, NDCG@20:0.0207
+[08/21/2023 00:33:00] {evaluate.py:49} INFO - current:step:40000 Recall@10：0.0378, Recall@20:0.0638, NDCG@10: 0.0188, NDCG@20:0.0253
+[08/21/2023 00:33:43] {evaluate.py:148} INFO - Saved Best:step:40000,Recall@10：0.0378, Recall@20:0.0638, NDCG@10: 0.0188, NDCG@20:0.0253
+[08/21/2023 00:37:57] {evaluate.py:49} INFO - current:step:50000 Recall@10：0.0461, Recall@20:0.0755, NDCG@10: 0.0232, NDCG@20:0.0306
+[08/21/2023 00:38:29] {evaluate.py:148} INFO - Saved Best:step:50000,Recall@10：0.0461, Recall@20:0.0755, NDCG@10: 0.0232, NDCG@20:0.0306
+[08/21/2023 00:42:37] {evaluate.py:49} INFO - current:step:60000 Recall@10：0.0468, Recall@20:0.0773, NDCG@10: 0.0242, NDCG@20:0.0318
+[08/21/2023 00:43:12] {evaluate.py:148} INFO - Saved Best:step:60000,Recall@10：0.0468, Recall@20:0.0773, NDCG@10: 0.0242, NDCG@20:0.0318
+[08/21/2023 00:47:20] {evaluate.py:49} INFO - current:step:70000 Recall@10：0.0520, Recall@20:0.0853, NDCG@10: 0.0271, NDCG@20:0.0355
+[08/21/2023 00:47:51] {evaluate.py:148} INFO - Saved Best:step:70000,Recall@10：0.0520, Recall@20:0.0853, NDCG@10: 0.0271, NDCG@20:0.0355
+[08/21/2023 00:52:01] {evaluate.py:49} INFO - current:step:80000 Recall@10：0.0598, Recall@20:0.0946, NDCG@10: 0.0313, NDCG@20:0.0401
+[08/21/2023 00:52:54] {evaluate.py:148} INFO - Saved Best:step:80000,Recall@10：0.0598, Recall@20:0.0946, NDCG@10: 0.0313, NDCG@20:0.0401
+[08/21/2023 00:57:06] {evaluate.py:49} INFO - current:step:90000 Recall@10：0.0551, Recall@20:0.0884, NDCG@10: 0.0288, NDCG@20:0.0372
+[08/21/2023 01:01:16] {evaluate.py:49} INFO - current:step:100000 Recall@10：0.0617, Recall@20:0.0973, NDCG@10: 0.0313, NDCG@20:0.0402
+[08/21/2023 01:01:57] {evaluate.py:148} INFO - Saved Best:step:100000,Recall@10：0.0617, Recall@20:0.0973, NDCG@10: 0.0313, NDCG@20:0.0402
+[08/21/2023 01:06:06] {evaluate.py:49} INFO - current:step:110000 Recall@10：0.0650, Recall@20:0.1024, NDCG@10: 0.0337, NDCG@20:0.0431
+[08/21/2023 01:06:41] {evaluate.py:148} INFO - Saved Best:step:110000,Recall@10：0.0650, Recall@20:0.1024, NDCG@10: 0.0337, NDCG@20:0.0431
+[08/21/2023 01:10:52] {evaluate.py:49} INFO - current:step:120000 Recall@10：0.0632, Recall@20:0.1034, NDCG@10: 0.0328, NDCG@20:0.0429
+[08/21/2023 01:11:26] {evaluate.py:148} INFO - Saved Best:step:120000,Recall@10：0.0632, Recall@20:0.1034, NDCG@10: 0.0328, NDCG@20:0.0429
+[08/21/2023 01:15:38] {evaluate.py:49} INFO - current:step:130000 Recall@10：0.0667, Recall@20:0.1071, NDCG@10: 0.0348, NDCG@20:0.0449
+[08/21/2023 01:16:10] {evaluate.py:148} INFO - Saved Best:step:130000,Recall@10：0.0667, Recall@20:0.1071, NDCG@10: 0.0348, NDCG@20:0.0449
+[08/21/2023 01:20:19] {evaluate.py:49} INFO - current:step:140000 Recall@10：0.0666, Recall@20:0.1082, NDCG@10: 0.0356, NDCG@20:0.0460
+[08/21/2023 01:21:06] {evaluate.py:148} INFO - Saved Best:step:140000,Recall@10：0.0666, Recall@20:0.1082, NDCG@10: 0.0356, NDCG@20:0.0460
+[08/21/2023 01:25:15] {evaluate.py:49} INFO - current:step:150000 Recall@10：0.0706, Recall@20:0.1103, NDCG@10: 0.0368, NDCG@20:0.0468
+[08/21/2023 01:25:59] {evaluate.py:148} INFO - Saved Best:step:150000,Recall@10：0.0706, Recall@20:0.1103, NDCG@10: 0.0368, NDCG@20:0.0468
+[08/21/2023 01:30:08] {evaluate.py:49} INFO - current:step:160000 Recall@10：0.0747, Recall@20:0.1170, NDCG@10: 0.0397, NDCG@20:0.0503
+[08/21/2023 01:30:46] {evaluate.py:148} INFO - Saved Best:step:160000,Recall@10：0.0747, Recall@20:0.1170, NDCG@10: 0.0397, NDCG@20:0.0503
+[08/21/2023 01:35:14] {evaluate.py:49} INFO - current:step:170000 Recall@10：0.0733, Recall@20:0.1158, NDCG@10: 0.0392, NDCG@20:0.0498
+[08/21/2023 01:39:30] {evaluate.py:49} INFO - current:step:180000 Recall@10：0.0748, Recall@20:0.1162, NDCG@10: 0.0395, NDCG@20:0.0499
+[08/21/2023 01:44:48] {evaluate.py:49} INFO - current:step:190000 Recall@10：0.0774, Recall@20:0.1185, NDCG@10: 0.0413, NDCG@20:0.0516
+[08/21/2023 01:45:38] {evaluate.py:148} INFO - Saved Best:step:190000,Recall@10：0.0774, Recall@20:0.1185, NDCG@10: 0.0413, NDCG@20:0.0516
+[08/21/2023 01:49:54] {evaluate.py:49} INFO - current:step:200000 Recall@10：0.0739, Recall@20:0.1165, NDCG@10: 0.0389, NDCG@20:0.0497
+[08/21/2023 01:56:07] {evaluate.py:49} INFO - current:step:210000 Recall@10：0.0771, Recall@20:0.1207, NDCG@10: 0.0405, NDCG@20:0.0515
+[08/21/2023 01:56:41] {evaluate.py:148} INFO - Saved Best:step:210000,Recall@10：0.0771, Recall@20:0.1207, NDCG@10: 0.0405, NDCG@20:0.0515
+[08/21/2023 02:04:47] {evaluate.py:49} INFO - current:step:220000 Recall@10：0.0789, Recall@20:0.1207, NDCG@10: 0.0420, NDCG@20:0.0525
+[08/21/2023 02:12:55] {evaluate.py:49} INFO - current:step:230000 Recall@10：0.0755, Recall@20:0.1191, NDCG@10: 0.0402, NDCG@20:0.0512
+[08/21/2023 02:21:10] {evaluate.py:49} INFO - current:step:240000 Recall@10：0.0785, Recall@20:0.1221, NDCG@10: 0.0417, NDCG@20:0.0527
+[08/21/2023 02:21:45] {evaluate.py:148} INFO - Saved Best:step:240000,Recall@10：0.0785, Recall@20:0.1221, NDCG@10: 0.0417, NDCG@20:0.0527
+[08/21/2023 02:29:52] {evaluate.py:49} INFO - current:step:250000 Recall@10：0.0785, Recall@20:0.1215, NDCG@10: 0.0414, NDCG@20:0.0522
+[08/21/2023 02:38:06] {evaluate.py:49} INFO - current:step:260000 Recall@10：0.0764, Recall@20:0.1195, NDCG@10: 0.0406, NDCG@20:0.0514
+[08/21/2023 02:46:23] {evaluate.py:49} INFO - current:step:270000 Recall@10：0.0781, Recall@20:0.1218, NDCG@10: 0.0415, NDCG@20:0.0525
+[08/21/2023 02:54:33] {evaluate.py:49} INFO - current:step:280000 Recall@10：0.0786, Recall@20:0.1208, NDCG@10: 0.0417, NDCG@20:0.0523
+[08/21/2023 03:02:47] {evaluate.py:49} INFO - current:step:290000 Recall@10：0.0755, Recall@20:0.1160, NDCG@10: 0.0403, NDCG@20:0.0505
+[08/21/2023 03:10:57] {evaluate.py:49} INFO - current:step:300000 Recall@10：0.0794, Recall@20:0.1208, NDCG@10: 0.0420, NDCG@20:0.0524
+[08/21/2023 03:10:57] {evaluate.py:154} INFO -  Early stop!Finished!
+[08/21/2023 03:10:57] {evaluate.py:158} INFO - ***** Finish evaluation *****

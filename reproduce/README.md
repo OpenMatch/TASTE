@@ -2,6 +2,8 @@
 
 ### Preprocesing dataset
 
+We provide all processed data files, which can be directly downloaded and used. If you want to repeat data processing, please refer to the following steps.
+
 This preprocessing dataset is composed of 3 steps:
 1. Get the processed dataset from Recbole/DIF-SR. We have provided this file directly, if you want to get it by yourself, please refer to Data/gen_dataset_example.py.
 2. Run Data/gen_all_items.py
@@ -43,4 +45,7 @@ We provide the bash script for evaluation in reproduce/valid, as well as the ten
 
 We provide the bash script for the test at reproduce/test, as well as log files of our test results.
 
+### Checkpoint
+
+We provide checkpoints of the four datasets that have been trained, and you can download and use them directly.
 

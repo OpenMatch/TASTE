@@ -8,4 +8,4 @@ nohup python inference.py  \
     --num_passage 2  \
     --split_num 243  \
     --eval_batch_size 512  \
-    --best_model_path /data1/meisen/TASTE-main/checkpoint/beauty/name/best_dev    > test_beauty.out  2>&1 &
+    --best_model_path /data1/TASTE/checkpoint/beauty/name/best_dev    > test_beauty.out  2>&1 &

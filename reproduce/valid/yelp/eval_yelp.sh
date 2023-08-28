@@ -9,4 +9,4 @@ nohup python evaluate.py  \
     --split_num 243  \
     --eval_batch_size 512  \
     --stopping_step 5  \
-    --all_models_path /data1/meisen/TASTE-main/checkpoint/yelp/address    > eval_yelp.out  2>&1 &
+    --all_models_path /data1/TASTE/checkpoint/yelp/address    > eval_yelp.out  2>&1 &

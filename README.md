@@ -15,7 +15,7 @@ Click the links below to view our papers, checkpoints and datasets
 ```
 python>=3.8
 transformers==4.22.2
-numpy
+numpy==1.23.5
 datasets==2.11.0
 faiss-cpu
 scikit-learn>=1.1.2
@@ -23,7 +23,7 @@ pandas
 tensorboard
 ```
 
-We provide the version file reproduce/environment.yml of all our used packages, if you have any problems configuring the environment, please refer to this document.
+We provide the version file `reproduce/environment.yml` of all our used packages, if you have any problems configuring the environment, please refer to this document.
 
 **2. Install openmatch. To download OpenMatch as a library and obtain openmatch-thunlp-0.0.1.**
 
@@ -34,6 +34,8 @@ cd OpenMatch
 pip install .
 ```
 
+We do not include all the requirements in the package. You may need to manually install `torch`
+
 
 **3. Prepare the pretrained T5 weights**
 
@@ -43,7 +45,7 @@ TASTE is built on [T5-base](https://huggingface.co/t5-base/tree/main).
 
 ### Reproducibility
 
-We provide all scripts, log files, and tensorboard required for dataset processing, training, evaluation, and testing under the reproduce folder. Please refer to these files and the readme in the reproduce folder to reproduce.
+We provide all scripts, log files, and tensorboard required for dataset processing, training, evaluation, and testing under the reproduce folder. Please refer to these files and the readme in the `reproduce folder` to reproduce.
 
 
 

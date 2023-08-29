@@ -56,10 +56,7 @@ We provide all scripts, log files, and tensorboard required for dataset processi
 + [RecBole](https://github.com/RUCAIBox/RecBole) Data processing and evaluation code based on RecBole! RecBole is developed based on Python and PyTorch for reproducing and developing recommendation algorithms in a unified, comprehensive and efficient framework for research purpose!
 
 
-If you're using TASTE in your research or applications, please cite using this BibTeX:
-```bibtex
 
-```
 
 
 ## Contact

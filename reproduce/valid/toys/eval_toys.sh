@@ -1,4 +1,4 @@
-export CUDA_VISIBLE_DEVICES=0 python evaluate.py  \
+CUDA_VISIBLE_DEVICES=0 python evaluate.py  \
     --data_name toys  \
     --experiment_name name \
     --seed 2022  \

@@ -1,4 +1,4 @@
-export CUDA_VISIBLE_DEVICES=0 python inference.py  \
+CUDA_VISIBLE_DEVICES=0 python inference.py  \
     --data_name yelp  \
     --experiment_name address  \
     --seed 2022  \

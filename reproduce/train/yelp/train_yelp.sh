@@ -1,4 +1,4 @@
- export CUDA_VISIBLE_DEVICES=0 python train.py  \
+CUDA_VISIBLE_DEVICES=0 python train.py  \
     --output_dir ../TASTE/checkpoint/yelp/address  \
     --model_name_or_path ../TASTE/pretrained_model/t5-base  \
     --do_train  \

@@ -15,7 +15,7 @@ class Options():
                                  help='load best model.')
         self.parser.add_argument('--all_models_path', type=str,
                                  help='load all saved model.')
-        self.parser.add_argument('--data_dir', nargs='?', default='Data/',
+        self.parser.add_argument('--data_dir', nargs='?', default='data/',
                                  help='Input data path.')
         self.parser.add_argument('--data_name', nargs='?', default='beauty',
                                  help='Choose a dataset from {yelp , beauty,sports,toys}')

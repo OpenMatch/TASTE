@@ -1,5 +1,4 @@
-export CUDA_VISIBLE_DEVICES=3
-nohup python inference.py  \
+export CUDA_VISIBLE_DEVICES=0 python inference.py  \
     --data_name beauty  \
     --experiment_name name  \
     --seed 2022  \
@@ -8,4 +7,4 @@ nohup python inference.py  \
     --num_passage 2  \
     --split_num 243  \
     --eval_batch_size 512  \
-    --best_model_path /data1/TASTE/checkpoint/beauty/name/best_dev    > test_beauty.out  2>&1 &
+    --best_model_path ../TASTE/checkpoint/beauty/name/best_dev

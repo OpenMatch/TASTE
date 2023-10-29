@@ -1,24 +1,26 @@
 # Text Matching Improves Sequential Recommendation by Reducing Popularity Biases
 
-Source code for our CIKM 2023 paper :
+Source code for our CIKM 2023 paper :  
 [Text Matching Improves Sequential Recommendation by Reducing Popularity Biases](https://arxiv.org/pdf/2308.14029.pdf)
 
-Click the links below to view our papers, checkpoints and datasets
+Click the links below to view our papers, checkpoints, datasets 
 
 <a href='https://arxiv.org/abs/2308.14029'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a><a href='https://huggingface.co/OpenMatch/TASTE-beauty'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-beauty-blue'></a><a href='https://huggingface.co/OpenMatch/TASTE-sports'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-sports-blue'></a><a href='https://huggingface.co/OpenMatch/TASTE-toys'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-toys-blue'></a><a href='https://huggingface.co/OpenMatch/TASTE-yelp'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-yelp-blue'></a><a href='https://drive.google.com/drive/folders/1U_tkCJq80kdefV9z_FdWDCMWvtUrm0or?usp=sharing'><img src='https://img.shields.io/badge/Google Drive-Dataset-yellow'></a> 
 
  If you find this work useful, please cite our paper  and give us a shining star 🌟
 
 ```
-@article{liu2023text,
+@inproceedings{liu2023text,
   title={Text Matching Improves Sequential Recommendation by Reducing Popularity Biases},
   author={Liu, Zhenghao and Mei, Sen and Xiong, Chenyan and Li, Xiaohua and Yu, Shi and Liu, Zhiyuan and Gu, Yu and Yu, Ge},
-  journal={arXiv preprint arXiv:2308.14029},
+  booktitle={Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
+  pages={1534--1544},
   year={2023}
 }
 ```
 
-## 
+We completed our oral presentation in Birmingham, UK  😊   
+Our slide show can be viewed by clicking on this [link](https://raw.githubusercontent.com/OpenMatch/TASTE/main/slides/taste-senmei-cikm2023.pdf)
 
 ## Requirements
 

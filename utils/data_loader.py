@@ -36,6 +36,10 @@ class SequenceDataset(Dataset):
                                         truncation=False)
             # Segment the user sequence text first, then add prompt to the first subsequence
             seq = list_split(seq,self.args.split_num)
+            
+            # TODO: maybe need this line when num_passage=1 
+            # seq = seq[:self.args.num_passage]
+            
             seq[0] = self.template[0] + seq[0] + self.template[1]
 
             s_ids = []
